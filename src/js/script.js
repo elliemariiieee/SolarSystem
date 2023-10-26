@@ -181,6 +181,7 @@ function animate(time){
     neptune.rotation.x = time/150;
     pluto.rotation.x = time/10000;
 
+    //help from https://threejs.org/docs/#api/en/core/Object3D.rotation
     venus.rotateOnAxis(new three.Vector3(0,0,0), 177*Math.PI);
     earth.rotateOnAxis(new three.Vector3(0,0,0), 23*Math.PI);
     mars.rotateOnAxis(new three.Vector3(0,0,0), 25*Math.PI);
